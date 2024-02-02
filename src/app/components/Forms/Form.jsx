@@ -12,7 +12,7 @@ function Form() {
         <p style={{
             fontSize:"10px"
         }}> ( You will get a mail with latest updates and features ) </p>
-        <button className='inputs'>Lets Connect</button>
+        <button className='inputs'>Get Connect</button>
     </div>
   )
 }

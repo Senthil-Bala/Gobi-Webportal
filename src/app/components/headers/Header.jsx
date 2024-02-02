@@ -1,5 +1,3 @@
-// CollapsibleExample.jsx
-
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
@@ -13,21 +11,19 @@ function CollapsibleExample() {
   return (
     <div>
       <Navbar collapseOnSelect expand="lg" className="navs">
+        <Navbar.Toggle
+          aria-controls="responsive-navbar-nav"
+          className="hamburger d-block d-sm-none float-left order-1"
+        />
+        <Image
+          src="/logo.png"
+          width={142}
+          height={39}
+          className="d-block d-sm-flex justify-content-center order-2"
+        />
         <Container className="nav-div">
-          <Navbar.Brand
-            href="#home"
-            className="text-white d-flex justify-content-center align-items-center"
-          >
-            <Image src="/logo.png" width={142} height={39} />
-          </Navbar.Brand>
-
-          <Navbar.Toggle
-            aria-controls="responsive-navbar-nav"
-            // className="navbar-toggler-icon"
-          />
-
           <Navbar.Collapse id="responsive-navbar-nav">
-            <Nav className="me-auto pages text-center">
+            <Nav className="me-auto pages text-center order-3">
               <Nav.Link href="#features" className="text-white">
                 Home
               </Nav.Link>
@@ -40,17 +36,17 @@ function CollapsibleExample() {
             </Nav>
 
             {/* Displayed on small and medium devices */}
-            <Form className="d-md-none d-lg-flex">
+            <Form className="d-md-none d-lg-flex d-xs-flex justify-content-end order-4">
               <FormControl
                 type="text"
                 placeholder="Search"
                 className="search"
               />
-              <Button variant="outline-light">Login</Button>
+              <Button variant="bg-white">Login</Button>
             </Form>
 
             {/* Displayed on larger devices */}
-            <Nav className="d-none d-md-flex">
+            <Nav className="d-none d-md-flex order-5">
               {/* <button className="w-25 d-flex justify-content-center">Login</button> */}
               <Form
                 style={{
@@ -59,11 +55,7 @@ function CollapsibleExample() {
                   marginLeft: "1rem",
                 }}
               >
-                <Form.Check
-                  type="switch"
-                  id="custom-switch"
-                  label="Language"
-                />
+                <Form.Check type="switch" id="custom-switch" label="Language" />
               </Form>
             </Nav>
           </Navbar.Collapse>

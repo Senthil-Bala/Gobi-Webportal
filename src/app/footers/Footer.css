@@ -1,8 +1,25 @@
-.footer{
-    
-    height: 450px;
-    /* top: 4552px; */
-    background: rgba(254, 248, 248, 1);
-    font-family: Saira, sans-serif !important;
+.footer {
+  background-color: #343a40;
+  /* width: 100%; */
+  /* Dark background color */
+  color: #fff;
+  /* White text color */
+}
+
+.contact-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+
+.quicklinks , .socialMedia {
+  font-family: Saira;
+font-size: 18px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: left;
 
 }

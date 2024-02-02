@@ -1,6 +1,6 @@
-.heros{
-    position: relative;
-}
-.people{
-    position: absolute;
+.hero-div{
+    /* width: auto; */
+    overflow: hidden;
+    width: 100vw;
+    margin-bottom: 5rem;
 }
