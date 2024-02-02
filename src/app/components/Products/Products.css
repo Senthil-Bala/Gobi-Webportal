@@ -1,0 +1,91 @@
+.products-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+  height: 702px;
+  margin-bottom: 6rem;
+  padding: 0rem 1rem;
+
+}
+
+.header {
+  font-family: Saira, sans-serif !important;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 39px;
+  letter-spacing: 0em;
+  color: rgba(241, 43, 42, 1);
+  text-align: center;
+}
+
+.sub-header {
+  font-family: Roboto !important;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: rgba(170, 123, 123, 1);
+
+}
+
+.shop-now {
+  width: 192px;
+  box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.24);
+  height: 40px;
+  /* padding: 11px, 50px, 11px, 50px; */
+  border-radius: 10px;
+  border: 1px;
+  background-color: rgba(255, 221, 85, 1);
+  color: linear-gradient(0deg, #F12B2A, #F12B2A),
+    linear-gradient(0deg, #FFDD55, #FFDD55);
+
+
+} 
+
+/* Media queries for large and md and xl devices */
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .products-section {
+    display: flex;
+    /* flex-direction: row; */
+    height: 600px; /* Adjust the height of the section */
+  }
+
+  .header {
+    font-size: 30px; /* Increase the font size of the header */
+  }
+
+  .sub-header {
+    font-size: 20px; /* Increase the font size of the sub-header */
+  }
+
+  .shop-now {
+    width: 240px; /* Increase the width of the button */
+    height: 50px; /* Increase the height of the button */
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .products-section {
+    height: 500px; /* Adjust the height of the section */
+  }
+
+  .header {
+    font-size: 35px; /* Increase the font size of the header */
+  }
+
+  .sub-header {
+    font-size: 22px; /* Increase the font size of the sub-header */
+  }
+
+  .shop-now {
+    width: 280px; /* Increase the width of the button */
+    height: 60px; /* Increase the height of the button */
+  }
+}

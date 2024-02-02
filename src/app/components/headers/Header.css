@@ -1,0 +1,28 @@
+/* Header.css */
+
+.nav-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .navs {
+    background-color: #f12B2A;
+    /* z-index: 2; */
+    margin-bottom: 20rem;
+  }
+  
+
+  .bg-image{
+    margin-top: 4.5rem;
+  }
+  .gobi-today{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+font-size: 31px;
+font-weight: 400;
+line-height: 38px;
+letter-spacing: 0em;
+text-align: left;
+
+  }
+  
