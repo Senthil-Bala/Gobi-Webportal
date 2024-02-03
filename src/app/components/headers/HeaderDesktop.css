@@ -1,0 +1,36 @@
+.header-nav {
+    height: 70px;
+    background-color: rgba(241, 43, 42, 1);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 30px;
+}
+
+.header-nav p {
+    color: #fff;
+    margin: 0;
+    /* Add this to remove default margin */
+    display: flex;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    /* Add this to make sure <p> tags are treated as flex items */
+}
+
+.header-nav button {
+    border: 1px solid rgba(255, 255, 255, 1);
+    width: 150px;
+    height: 38px;
+    color: black;
+    border-radius: 0.5rem;
+}
+
+@media all and (max-width:780px) {
+    .header-nav {
+        width: 100%;
+    }
+}

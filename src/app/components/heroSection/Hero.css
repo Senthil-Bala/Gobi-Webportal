@@ -3,4 +3,5 @@
     overflow: hidden;
     width: 100vw;
     margin-bottom: 5rem;
+    z-index: -1;
 }

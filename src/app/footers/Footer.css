@@ -1,8 +1,10 @@
 .footer {
-  background-color: #343a40;
+  background-color: rgb(49, 2, 2, 1);
   /* width: 100%; */
   /* Dark background color */
   color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
   /* White text color */
 }
 
@@ -15,11 +17,21 @@
 
 
 .quicklinks , .socialMedia {
-  font-family: Saira;
 font-size: 18px;
 font-weight: 400;
 line-height: 28px;
 letter-spacing: 0em;
 text-align: left;
+
+}
+.copyrights{
+  color: gray;
+  text-align: center;
+  font-family: Saira;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+
+
 
 }

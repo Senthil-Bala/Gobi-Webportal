@@ -13,13 +13,13 @@ const Slicks = () => {
       <p className="community-header">Here from our Community</p>
     <Carousel className="text-center my-5">
       <Carousel.Item interval={1000} className="items">
-        <Image src="/slick1.png" width={300} height={464} style={imageStyle} />
+        <Image src="/slick1.png" width={300} height={400} style={imageStyle} />
       </Carousel.Item>
       <Carousel.Item interval={2000} className="items">
-        <Image src="/slick2.png" width={300} height={464} style={imageStyle} />
+        <Image src="/slick2.png" width={300} height={400} style={imageStyle} />
       </Carousel.Item>
       <Carousel.Item interval={2600} className="items">
-        <Image src="/slick3.png" width={300} height={464} style={imageStyle} />
+        <Image src="/slick3.png" width={300} height={400} style={imageStyle} />
       </Carousel.Item>
     </Carousel>
     </div>

@@ -7,7 +7,7 @@ function Jobs() {
       <Image src="/ship.png" width={80} height={80} />
 
       <p className="header">Find Your Next Career Move Locally</p>
-      <Image src="/jobbanner.png" width={300} height={450} />
+      <Image src="/jobbanner.png" width={250} height={296} />
       <p className="text-center sub-header">
         "Looking for a job close to home? Explore job listings from local
         businesses in your community. Whether you’re starting your career or

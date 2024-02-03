@@ -1,24 +1,30 @@
 import Image from "next/image";
-import "./Products.css"; // Import your CSS file
+import "../Products/desk.css"; // Import your CSS file
 
-function Products() {
-  
+function JobsDesktop() {
   return (
-    
-    <div className="products-section">
+    <div className="productsDesktop-section container">
+        
+      
+      
+      <div className="col2">
       <Image src="/ship.png" width={80} height={80} />
+      <p className="header">Find Your Next Career Move Locally</p>
 
-      <p className="header">Explore local products & Services</p>
-      <Image src="/purchase.png" width={252} height={398} />
       <p className="text-center sub-header">
         "Looking for a job close to home? Explore job listings from local
         businesses in your community. Whether you’re starting your career or
         seeking new opportunities, find jobs that align with your skills and
         passions right here in your neighborhood."{" "}
       </p>
-      <button className="shop-now">Shop now</button>
+      <button className="shop-now">View Jobs</button>
+      </div>
+      <div className="col1">
+      <Image src="/jobbanner.png" width={408} height={400} />
+
+      </div>
     </div>
   );
 }
 
-export default Products;
+export default JobsDesktop;
