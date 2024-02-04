@@ -8,7 +8,7 @@ function Products() {
     <div className="products-section">
       <Image src="/ship.png" width={80} height={80} />
 
-      <p className="header">Explore local products & Services</p>
+      <p className="header">Explore Local Products & Services</p>
       <Image src="/purchase.png" width={252} height={398} />
       <p className="text-center sub-header">
         "Looking for a job close to home? Explore job listings from local

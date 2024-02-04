@@ -28,10 +28,10 @@ text-align: left;
   color: gray;
   text-align: center;
   font-family: Saira;
-font-size: 14px;
+font-size: 16px;
 font-weight: 400;
 line-height: 24px;
-
-
+padding: 1rem 0rem !important;
+background: #000;
 
 }

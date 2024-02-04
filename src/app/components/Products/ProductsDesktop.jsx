@@ -12,7 +12,7 @@ function ProductsDesktop() {
       
       <div className="col2">
       <Image src="/ship.png" width={80} height={80} />
-      <p className="header">Explore local products & Services</p>
+      <p className="header">Explore Local Products & Services</p>
 
       <p className="text-center sub-header">
         "Looking for a job close to home? Explore job listings from local

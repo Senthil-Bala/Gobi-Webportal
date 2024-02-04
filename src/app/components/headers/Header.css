@@ -9,9 +9,9 @@
   margin: 0;
   /* Add this to remove default margin */
   display: flex;
-  font-family: Roboto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 20px;
-  font-weight: 900;
+  font-weight: 400;
   line-height: 21px;
   letter-spacing: 0em;
   text-align: left;
@@ -19,8 +19,15 @@
 
 .header-mobile button {
   background: rgba(255, 255, 255, 1);
-  /* border: 1px solid rgba(255, 255, 255, 1); */
   border-radius: 4px;
   padding: 8px;
   border: none;
+  width: 4rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.toggle-icon{
+  background-color: rgba(241, 43, 42, 1) !important;
+  color: white !important;
+  margin-right: 0px !important;
 }
