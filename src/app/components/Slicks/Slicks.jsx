@@ -1,29 +1,48 @@
-import React from "react";
-import Carousel from "react-bootstrap/Carousel";
-import Image from "next/image";
-import "./Slicks.css";
+import React, { useRef, useState } from 'react';
+// Import Swiper React components
+import { Swiper, SwiperSlide } from 'swiper/react';
+import Image from 'next/image';
 
-const Slicks = () => {
-  const imageStyle = {
-    boxShadow: "1px 3px 7px rgba(0, 2, 0, 0.1)", // Adjust the box shadow according to your needs
-  };
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/effect-cube';
+import 'swiper/css/pagination';
 
+import './Slicks.css';
+
+// import required modules
+import { EffectCube, Pagination } from 'swiper/modules';
+
+export default function Slicks() {
   return (
-    <div className="mt-0">
-      <p className="community-header">Here from our Community</p>
-    <Carousel className="text-center my-5">
-      <Carousel.Item interval={1000} className="items">
-        <Image src="/slick1.png" width={300} height={400} style={imageStyle} />
-      </Carousel.Item>
-      <Carousel.Item interval={2000} className="items">
-        <Image src="/slick2.png" width={300} height={400} style={imageStyle} />
-      </Carousel.Item>
-      <Carousel.Item interval={2600} className="items">
-        <Image src="/slick3.png" width={300} height={400} style={imageStyle} />
-      </Carousel.Item>
-    </Carousel>
+    <div className='slick-div'>
+    <p className='slick-header'>Here from our Community</p>
+      <Swiper
+        effect={'cube'}
+        grabCursor={true}
+        cubeEffect={{
+          shadow: true,
+          slideShadows: true,
+          shadowOffset: 20,
+          shadowScale: 0.94,
+        }}
+        pagination={true}
+        modules={[EffectCube, Pagination]}
+        className="mySwiper"
+      >
+        <SwiperSlide>
+          <Image src='/slick1.png' width={290} height={325} />
+        </SwiperSlide>
+        <SwiperSlide>
+        <Image src='/slick2.png' width={290} height={325} />
+        </SwiperSlide>
+        <SwiperSlide>
+        <Image src='/slick3.png' width={290} height={325} />
+        </SwiperSlide>
+        {/* <SwiperSlide>
+        <Image src='/slick4.png' width={290} height={325} />
+        </SwiperSlide> */}
+      </Swiper>
     </div>
   );
-};
-
-export default Slicks;
+}

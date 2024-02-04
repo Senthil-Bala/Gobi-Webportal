@@ -1,6 +1,10 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faAngleDoubleRight } from "@fortawesome/free-solid-svg-icons";
+import {
+  faAngleDoubleRight,
+  faPhone,
+  faEnvelope,
+} from "@fortawesome/free-solid-svg-icons";
 import {
   faInstagram,
   faFacebook,
@@ -8,14 +12,15 @@ import {
   faYoutube,
   faSkype,
 } from "@fortawesome/free-brands-svg-icons";
-import styles from "./Footer.css";
 import Image from "next/image";
+import "./FooterDesk.css";
+
 function FooterDesk() {
   return (
-    <div className="footer">
+    <div className="footer-desk">
       <div className="container p-4  d-flex  justify-content-between align-items-center">
-        <div className="quicklinks pt-1 ">
-          <h6>Quick Links</h6>
+        <div className="quicklinks pt-1">
+          <h6 className="footer-heading">Quick Links</h6>
           <p>
             <FontAwesomeIcon icon={faAngleDoubleRight} /> Shoppings
           </p>
@@ -31,11 +36,9 @@ function FooterDesk() {
           <p>
             <FontAwesomeIcon icon={faAngleDoubleRight} /> Careers
           </p>
-          
-          
         </div>
-        <div className="socialMedia ">
-          <h6>Social Media</h6>
+        <div className="socialMedia">
+          <h6 className="footer-heading">Social Media</h6>
           <p>
             <Image src="/fb.png" width={24} height={24} /> Facebook
           </p>
@@ -52,24 +55,28 @@ function FooterDesk() {
           <p>
             <Image src="/skype.png" width={24} height={24} /> Skype
           </p>
-          
-   
         </div>
         <div className="cont">
-        <div className="mt-2">
-            <p>Contact Info</p> 
-            <p>+91 9876543210</p>
-            <p>ceo@gobitoday.com</p>
+          <div className="mt-2">
+            <h6 className="footer-heading">Contact Info</h6>
+            <p>
+              <FontAwesomeIcon icon={faPhone} /> +91 9876543210
+            </p>
+            <p>
+              <FontAwesomeIcon icon={faEnvelope} /> ceo@gobitoday.com
+            </p>
             <div className="downloads d-flex gap-4">
-                <Image src="/android.png" width={145} height={44} />
-                <Image src="/ios.png" width={145} height={44} />
+              <Image src="/android.png" width={145} height={44} />
+              <Image src="/ios.png" width={145} height={44} />
             </div>
           </div>
         </div>
       </div>
-      <p className="copyrights">CopyRights 2024. GobiToday. All Rights Reserved</p>
+      <p className="copyrights-desk p-3">
+        CopyRights 2024. GobiToday. All Rights Reserved
+      </p>
     </div>
-  )
+  );
 }
 
 export default FooterDesk;

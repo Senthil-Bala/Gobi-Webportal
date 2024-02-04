@@ -1,0 +1,35 @@
+.footer-desk {
+    background-color: rgb(49, 2, 2, 1);
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+  
+  .contact-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  
+  .quicklinks , .socialMedia {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  
+  }
+  .copyrights-desk{
+    color: gray;
+    text-align: center;
+    font-family: Saira;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  padding: 0rem 1rem;
+  background: #000;
+  
+  
+  
+  }

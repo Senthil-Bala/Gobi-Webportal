@@ -5,23 +5,26 @@ import Slicks from "./components/Slicks/Slicks";
 import Products from "./components/Products/Products";
 import Jobs from "./components/Jobs/Jobs";
 import Business from "./components/Business/Business";
-import Form from "./components/Forms/Form";
+import MainForm from "./components/Forms/MainForm";
 import Footer from "./footers/Footer";
 import MainHeader from "./components/headers/MainHeader";
 import Main from "./components/Products/Main";
 import MainJob from "./components/Jobs/MainJob";
 import MainBusiness from "./components/Business/MainBusiness";
 import MainFooter from "./footers/FooterMain";
+import HeroDesktop from "./components/heroSection/HeroDesktop";
+import MainHero from "./components/heroSection/HeroMain";
 export default function Home() {
   return (
     <div>
+      {/* <HeroDesktop/> */}
      <MainHeader/>
-      <Hero />
+      <MainHero />
       <Main/>
       <MainJob/>
       <MainBusiness/>
       <Slicks/>
-      <Form/>
+      <MainForm/>
       <MainFooter/>
     </div>
   );

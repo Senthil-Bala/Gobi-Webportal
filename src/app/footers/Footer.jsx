@@ -1,6 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faAngleDoubleRight } from "@fortawesome/free-solid-svg-icons";
+import { faAngleDoubleRight,faPhone,faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import {
   faInstagram,
   faFacebook,
@@ -34,9 +34,12 @@ function Footer() {
           <br />
           <div className="mt-2">
             <p>Contact Info</p>
-            <p>+91 9876543210</p>
-            <p>ceo@gobitoday.com</p>
-          </div>
+            <p>
+              <FontAwesomeIcon icon={faPhone} /> +91 9876543210
+            </p>
+            <p>
+              <FontAwesomeIcon icon={faEnvelope} /> ceo@gobitoday.com
+            </p>          </div>
         </div>
         <div className="socialMedia ">
           <h6>Social Media</h6>

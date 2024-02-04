@@ -1,0 +1,66 @@
+/* Default styles for desktop */
+.bg{
+    background-image: url("/bgdesign.png");
+}
+
+
+.big {
+    position: relative;
+    min-width: 100vw;
+  }
+  
+  .small {
+    position: absolute;
+    top: 30%;
+    right:10%;
+  }
+  .contents{
+    position: absolute;
+    top: 35%;
+    left:10%;
+  }
+  
+  .find-btn:hover{
+    background:red !important;
+    color: #fff !important;
+  }
+
+  .small-fonts p{
+    font-family: Righteous;
+font-size: 18px;
+color: #fff;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+
+  }
+  /* Media queries for smaller screens, adjust values as needed */
+  /* @media (max-width: 1410px) {
+    big {
+        position: relative;
+      }
+      
+      .small {
+        position: absolute;
+        top: 20%;
+        right: -250px;
+      }
+  } */
+  
+  /* Media queries for tablets, adjust values as needed */
+  /* @media (max-width: 1320px) {
+    big {
+        min-width:100vw;
+      }
+      
+      .small {
+        position: absolute;
+        top: 20%;
+        right: -1250px;
+      }
+  } */
+  
+  /* Media queries for mobile devices, adjust values as needed */
+ 
+  

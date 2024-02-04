@@ -1,9 +1,30 @@
-.community-header{
+.slick-div{
+    margin-bottom: 150px;
+}
+
+.swiper {
+  width: 300px;
+  height: 300px;
+  /* position: absolute; */
+} 
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+}
+
+.swiper-slide img {
+  /* display: block; */
+  width: 100%;
+}
+
+.slick-header{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 28px;
-font-weight: bolder;
-line-height: 39px;
-letter-spacing: 0em;
-text-align: center;
-color: rgba(241, 43, 42, 1);
+    font-size: 25px;
+    font-weight: bolder;
+    line-height: 39px;
+    letter-spacing: 0em;
+    color: rgba(241, 43, 42, 1);
+    text-align: center;
+  
 }
