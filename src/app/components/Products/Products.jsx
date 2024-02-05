@@ -5,7 +5,7 @@ function Products() {
   
   return (
     
-    <div className="products-section">
+    <div className="products-section" data-aos="flip-right">
       <Image src="/ship.png" width={80} height={80} />
 
       <p className="header">Explore Local Products & Services</p>

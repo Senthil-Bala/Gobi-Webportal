@@ -15,7 +15,7 @@ import { EffectCube, Pagination } from 'swiper/modules';
 
 export default function Slicks() {
   return (
-    <div className='slick-div'>
+    <div className='slick-div' data-aos="flip-right">
     <p className='slick-header'>Here from our Community</p>
       <Swiper
         effect={'cube'}

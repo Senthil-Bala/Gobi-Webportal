@@ -4,13 +4,13 @@ import "../Products/desk.css"; // Import your CSS file
 function BusinessDesktop() {
   return (
     <div className="productsDesktop-section container">
-        <div className="col1">
+        <div className="col1" data-aos="flip-right">
       <Image src="/businnessbanner.png" width={300} height={400} />
 
       </div>
       
       
-      <div className="col2">
+      <div className="col2" data-aos="fade-left">
       <Image src="/ship.png" width={80} height={80} />
       <p className="header">Grow your Business and Team</p>
 

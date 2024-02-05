@@ -19,8 +19,8 @@ export default function RootLayout({ children }) {
   useEffect(() => {
     console.log("AOS initializing...");
     AOS.init({
-      duration: 1000,
-      once: true,
+      duration: 2000,
+      // once: true,
     });
     console.log("AOS initialized!");
   }, []);

@@ -7,7 +7,7 @@ import { FaSearch } from "react-icons/fa";
 
 function Header() {
   return (
-    <Navbar expand="md" className="header-mobile px-1">
+    <Navbar expand="md" className="header-mobile px-1" data-aos="slide-up">
       
       <Navbar.Toggle aria-controls="responsive-navbar-nav" className='toggle-icon'>
         <MdOutlineMenu  />

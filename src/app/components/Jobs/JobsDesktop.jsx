@@ -7,7 +7,7 @@ function JobsDesktop() {
         
       
       
-      <div className="col2">
+      <div className="col2" data-aos="flip-right">
       <Image src="/ship.png" width={80} height={80} />
       <p className="header">Find Your Next Career Move Locally</p>
 
@@ -19,7 +19,7 @@ function JobsDesktop() {
       </p>
       <button className="shop-now">View Jobs</button>
       </div>
-      <div className="col1">
+      <div className="col1" data-aos="fade-left">
       <Image src="/jobbanner.png" width={408} height={400} />
 
       </div>

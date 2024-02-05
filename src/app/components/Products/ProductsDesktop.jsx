@@ -4,13 +4,13 @@ import "./desk.css"; // Import your CSS file
 function ProductsDesktop() {
   return (
     <div className="productsDesktop-section container">
-        <div className="col1">
+        <div className="col1" data-aos="flip-right">
       <Image src="/purchase.png" width={320} height={420} />
 
       </div>
       
       
-      <div className="col2">
+      <div className="col2" data-aos="fade-left">
       <Image src="/ship.png" width={80} height={80} />
       <p className="header">Explore Local Products & Services</p>
 

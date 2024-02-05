@@ -3,7 +3,7 @@ import "../Products/Products.css"; // Import your CSS file
 
 function Jobs() {
   return (
-    <div className="products-section">
+    <div className="products-section" data-aos="flip-right">
       <Image src="/ship.png" width={80} height={80} />
 
       <p className="header">Find Your Next Career Move Locally</p>

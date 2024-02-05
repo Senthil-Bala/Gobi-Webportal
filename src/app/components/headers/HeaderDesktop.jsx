@@ -5,7 +5,7 @@ import Form from 'react-bootstrap/Form';
 import "./HeaderDesktop.css"
 function HeaderDesktop() {
   return (
-    <div className='header-nav'>
+    <div className='header-nav' data-aos="slide-up">
       <Image src="/logo.png" width={200} height={60} />
       <p>Home</p>
       <p>Shopping</p>
