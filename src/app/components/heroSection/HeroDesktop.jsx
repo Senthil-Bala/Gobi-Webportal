@@ -9,10 +9,10 @@ function HeroDesktop() {
   };
 
   return (
-    <div>
+    <div data-aos="slide-up">
         <Image src="/bgdesign.png" width={1763} height={800}  layout='responsive' className='big'/>
-        <Image src="/hero-banner.png" width={450} height={480}   className='small' data-aos="flip-right"/>
-        <div className="contents"  data-aos="fade-right">
+        <Image src="/hero-banner.png" width={450} height={480}   className='small'/>
+        <div className="contents" >
             <p style={{
                 ...commonStyles,
                 fontSize: '40px',

@@ -11,7 +11,7 @@ function FormDesktop() {
       marginBottom:"95px"
     }}>
 
-      <div className='d-flex flex-column justify-content-center align-items-center' data-aos="flip-right">
+      <div className='d-flex flex-column justify-content-center align-items-center' data-aos="slide-up">
         <Image src="/form.png" width={180} height={180} />
         <p style={{
           fontFamily: 'Saira',
@@ -26,7 +26,7 @@ function FormDesktop() {
         </p>
       </div>
 
-      <div data-aos="fade-left" className='d-flex flex-column justify-content-center align-items-center' style={{
+      <div data-aos="slide-up"className='d-flex flex-column justify-content-center align-items-center' style={{
         width: "534px",
         height: "290px",
         borderRadius: "10px",

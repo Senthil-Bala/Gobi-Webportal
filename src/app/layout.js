@@ -6,6 +6,8 @@ import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "./globals.css"
+import MainHeader from "./components/headers/MainHeader";
+import MainFooter from "./footers/FooterMain";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -28,7 +30,12 @@ export default function RootLayout({ children }) {
 
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+      <MainHeader data-aos="fade-up" />
+        {children}
+        <MainFooter data-aos="fade-up" />
+
+        </body>
     </html>
   );
 }

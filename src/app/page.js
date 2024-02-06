@@ -16,14 +16,13 @@ import 'aos/dist/aos.css';
 export default function Home() {
   return (
     <div>
-      <MainHeader data-aos="fade-up" />
-      <MainHero data-aos="fade-up" />
-      <Main data-aos="fade-up" />
-      <MainJob data-aos="fade-up" />
-      <MainBusiness data-aos="fade-up" />
-      <Slicks data-aos="fade-up" />
-      <MainForm data-aos="fade-up" />
-      <MainFooter data-aos="fade-up" />
+      
+      <MainHero />
+      <Main />
+      <MainJob />
+      <MainBusiness />
+      <Slicks />
+      <MainForm />
     </div>
   );
 }

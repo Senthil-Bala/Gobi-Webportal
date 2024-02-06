@@ -17,7 +17,7 @@ import "./FooterDesk.css";
 
 function FooterDesk() {
   return (
-    <div className="footer-desk" data-aos="flip-right">
+    <div className="footer-desk" data-aos="slide-up">
       <div className="container p-4  d-flex  justify-content-between align-items-center">
         <div className="quicklinks pt-1">
           <h6 className="footer-heading">Quick Links</h6>

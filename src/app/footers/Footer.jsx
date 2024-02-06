@@ -12,7 +12,7 @@ import styles from "./Footer.css";
 import Image from "next/image";
 function Footer() {
   return (
-    <div className="footer" data-aos="flip-right">
+    <div className="footer"  data-aos="slide-up">
       <div className="container-fluid p-4  d-flex justify-content-between align-items-center">
         <div className="quicklinks pt-1 ">
           <h6>Quick Links</h6>

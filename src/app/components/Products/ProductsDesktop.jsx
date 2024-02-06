@@ -1,16 +1,17 @@
 import Image from "next/image";
 import "./desk.css"; // Import your CSS file
+import Link from "next/link";
 
 function ProductsDesktop() {
   return (
     <div className="productsDesktop-section container">
-        <div className="col1" data-aos="flip-right">
+        <div className="col1" >
       <Image src="/purchase.png" width={320} height={420} />
 
       </div>
       
       
-      <div className="col2" data-aos="fade-left">
+      <div className="col2" data-aos="zoom-in">
       <Image src="/ship.png" width={80} height={80} />
       <p className="header">Explore Local Products & Services</p>
 
@@ -20,7 +21,7 @@ function ProductsDesktop() {
         seeking new opportunities, find jobs that align with your skills and
         passions right here in your neighborhood."{" "}
       </p>
-      <button className="shop-now">Shop now</button>
+      <Link href="/shopping" ><button className="shop-now">Shop now</button></Link>
       </div>
     </div>
   );
