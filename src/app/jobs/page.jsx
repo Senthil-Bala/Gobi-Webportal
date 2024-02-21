@@ -1,8 +1,13 @@
 import React from 'react'
+import Subheader from '../components/JobspageComponents/SubHeaders/Subheader'
+import HeroJob from '../components/JobspageComponents/HeroJob/HeroJob'
 
 function page() {
   return (
-    <div>Jobs Page</div>
+    <div>
+      <Subheader/>
+      <HeroJob/>
+    </div>
   )
 }
 
